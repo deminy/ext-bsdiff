@@ -1,0 +1,12 @@
+[package]
+name = "php-bsdiff"
+version = "0.1.0"
+authors = ["Demin Yin <deminy@deminy.in>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ext-php-rs = "~0.7.3"
+bsdiff = "0.1.6"

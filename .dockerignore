@@ -1,0 +1,10 @@
+/.dockerignore
+/.git
+/.gitignore
+/.idea
+/Cargo.lock
+/Dockerfile
+/README.md
+/rustfmt.toml
+/target
+/*.stubs.php

@@ -8,5 +8,5 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-ext-php-rs = "~0.7.3"
 bsdiff = "0.1.6"
+ext-php-rs = "~0.7.3"

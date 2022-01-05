@@ -4,8 +4,9 @@ COPY . .
 
 RUN \
     set -ex && \
-    apk update && \
-    apk add clang clang-dev clang-static gcc g++ build-base libc-dev && \
-    apk add cargo expect rust && \
+    apk update         && \
+    apk add clang gcc  && \
+    apk add cargo rust && \
+    apk add expect     && \
     cargo install cargo-php && \
     ./install-bsdiff.sh

@@ -1,4 +1,7 @@
 FROM php:8.0-cli-alpine3.15
+
+LABEL org.opencontainers.image.source = "https://github.com/deminy/ext-bsdiff"
+
 WORKDIR /usr/src/php-bsdiff
 COPY . .
 
